@@ -6,7 +6,6 @@ import jakarta.persistence.GenerationType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 import org.springframework.data.annotation.Id;
 
 @Entity
@@ -14,7 +13,7 @@ import org.springframework.data.annotation.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class DadJokes {
+public class DadJoke {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
